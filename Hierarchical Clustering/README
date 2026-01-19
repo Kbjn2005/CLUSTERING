@@ -1,0 +1,18 @@
+Algorithm Type
+Unsupervised Learning → Clustering
+
+📊 Data Loaded
+Numerical dataset loaded without labels
+Distance matrix computed from features
+
+⚙️ Mechanism Used
+Agglomerative (bottom-up) clustering
+Merges closest clusters step-by-step
+Uses linkage methods (single, complete, ward)
+
+📈 Evaluation
+Dendrogram visualization
+
+📤 Output
+Hierarchical cluster structure
+Cluster assignments
