@@ -1,0 +1,24 @@
+Algorithm Type
+Unsupervised Learning → Clustering
+
+📊 Data Loaded
+Numerical dataset loaded into feature matrix x
+Data scaled before clustering
+
+⚙️ Mechanism Used
+K-Means works by:
+Selecting K centroids
+Assigning points to nearest centroid
+Updating centroids iteratively
+Minimizing WCSS (Within Cluster Sum of Squares)
+
+🔧 Parameter Selection
+Elbow Method used to select optimal K
+
+📈 Evaluation
+Elbow graph
+Cluster compactness
+
+📤 Output
+Cluster labels
+Centroid locations
