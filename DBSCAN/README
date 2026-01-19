@@ -1,0 +1,26 @@
+Unsupervised Learning → Clustering
+
+📊 Data Loaded
+Input dataset x is loaded as a numerical feature matrix
+Data represents multi-dimensional points used for density analysis
+No target labels are required
+
+⚙️ Mechanism Used
+DBSCAN groups data points based on density:
+Points within a distance eps form neighborhoods
+If a neighborhood has at least min_samples, it becomes a cluster
+Sparse points are marked as noise (-1)
+
+🔧 Parameters Tuned
+eps: 3 → 10
+min_samples: eps + 1, eps + 2, …
+Best values chosen by minimum number of noise points
+
+📈 Evaluation
+Number of -1 (outliers)
+eps vs noise graphs
+
+📤 Output
+Cluster labels
+Noise points
+Parameter tuning tables and graphs
